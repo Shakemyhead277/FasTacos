@@ -1,0 +1,2 @@
+interface Props { name: string; price: string; }
+export default function MenuItem({ name, price }: Props) { return <div className="flex items-center justify-between rounded-lg bg-white px-4 py-3 shadow-sm transition hover:scale-[1.02] hover:bg-yellow-50"><span className="font-semibold text-gray-800">{name}</span><span className="ml-4 text-lg font-bold text-[#C0392B]">{price}</span></div>; }
